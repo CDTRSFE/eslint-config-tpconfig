@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-tpconfig",
+  "version": "0.1.0",
+  "description": "Vue 项目自定义 eslint 规则",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDTRSFE/eslint-config-tpconfig.git"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6"
+  },
+  "keywords": [
+    "eslint",
+    "vue"
+  ],
+  "author": "zhaoqing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CDTRSFE/eslint-config-tpconfig/issues"
+  },
+  "homepage": "https://github.com/CDTRSFE/eslint-config-tpconfig#readme"
+}
