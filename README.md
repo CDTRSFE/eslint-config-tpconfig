@@ -19,10 +19,10 @@ $ npm install eslint-config-tpconfig -D
 }
 ```
 
-使用 [tp-template](https://github.com/CDTRSFE/vue-cli-plugin-tp-template) 创建项目会自动添加在 eslint 配置文件中，无需额外安装。
+使用 [vue-preset](https://github.com/CDTRSFE/vue-preset) 创建项目会自动添加在 eslint 配置文件中，无需额外安装。
 
 ```shell
-$ vue create --preset tp-template <project-name>
+$ vue create --preset CDTRSFE/vue-preset <project-name>
 ```
 
 ## 升级
