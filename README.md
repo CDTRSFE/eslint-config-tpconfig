@@ -1,6 +1,6 @@
 # eslint-config-tpconfig
 
-此扩展包是在 `eslint:recommended` 和 [plugin:vue/vue3-recommended](https://eslint.vuejs.org/) 基础之上配置的一组规则。使用时需要将 `'tpconfig'` 放在 `extends` 的末尾。
+此扩展包是在 `eslint:recommended`、[plugin:vue/recommended](https://eslint.vuejs.org/)、`@vue/standard` 基础之上配置的一组规则。使用时需要将 `'tpconfig'` 放在 `extends` 的末尾。
 
 ## 使用
 
@@ -13,7 +13,8 @@ $ npm install eslint-config-tpconfig -D
 {
     extends: [
         'eslint:recommended',
-        'plugin:vue/vue3-recommended',
+        'plugin:vue/recommended', // Vue3 是 plugin:vue/vue3-recommended
+        '@vue/standard',
         'tpconfig'
     ]
 }
