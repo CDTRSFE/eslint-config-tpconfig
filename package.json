@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tpconfig",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Vue 项目自定义 eslint 规则",
   "main": "index.js",
   "scripts": {

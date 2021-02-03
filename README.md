@@ -20,7 +20,22 @@ $ npm install eslint-config-tpconfig -D
 }
 ```
 
-使用 [vue-preset](https://github.com/CDTRSFE/vue-preset) 创建项目会自动添加在 eslint 配置文件中，无需额外安装。
+在现有的项目中使用，确保安装了以下依赖，如果版本过低也可能出现问题。
+
+ ```json
+{
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "eslint": "^6.7.2",
+    "eslint-config-tpconfig": "^0.x",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^7.0.0-0"
+}
+ ```
+
+创建新的项目，可以直接使用 [vue-preset](https://github.com/CDTRSFE/vue-preset) 无需额外安装依赖。
 
 ```shell
 $ vue create --preset CDTRSFE/vue-preset <project-name>
@@ -28,4 +43,4 @@ $ vue create --preset CDTRSFE/vue-preset <project-name>
 
 ## 升级
 
-此规则单独维护，如果配置有修改会发新的 npm 包，`npm update eslint-config-tpconfig -D` 升级即可。
+此规则单独维护，如果配置有修改会发新的 npm 包，`npm update eslint-config-tpconfig -D` 升级即可，或者卸载之后重新安装。
