@@ -13,7 +13,7 @@ module.exports = {
         // generator 函数中 * 号左边有空格右边不允许有空格? es6建议星号后面有空格，前面没有
         'generator-star-spacing': [2, 'after'],
         // 禁止冗余的括号
-        'no-extra-parens': [2, 'all'],
+        'no-extra-parens': [2, 'all', { "nestedBinaryExpressions": false }],
         // 语句末尾使用分号
         'semi': [2, 'always'],
         // 强制最大连续空行数为1，强制文件末尾和文件开始的最大连续空行数为1和0
