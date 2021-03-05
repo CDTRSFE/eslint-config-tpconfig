@@ -20,20 +20,7 @@ $ npm install eslint-config-tpconfig -D
 }
 ```
 
-在现有的项目中使用，确保安装了以下依赖，如果版本过低也可能出现问题。
-
- ```json
-{
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "eslint": "^6.7.2",
-    "eslint-config-tpconfig": "^0.x",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^7.0.0-0"
-}
- ```
+在现有的 Vue 项目中使用，可能需要先升级 eslint。
 
 创建新的项目，可以直接使用 [vue-preset](https://github.com/CDTRSFE/vue-preset) 无需额外安装依赖。
 
