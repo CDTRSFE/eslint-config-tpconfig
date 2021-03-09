@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tpconfig",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Vue 项目自定义 eslint 规则",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
     "@vue/eslint-config-standard": "^5.1.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.3.1"
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^4.0.0"
   },
   "peerDependencies": {
     "eslint": "^6.7.2"
