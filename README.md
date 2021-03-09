@@ -35,7 +35,7 @@ module.exports = {
 };
 ```
 
-在现有的 Vue 项目中使用，可能需要先升级 eslint 到 6.x。
+在现有的 Vue 项目中使用，可能需要先升级 eslint 到 6.x，以及安装相关依赖。
 
 创建新的项目，可以直接使用 [vue-preset](https://github.com/CDTRSFE/vue-preset) 无需额外安装依赖。
 
